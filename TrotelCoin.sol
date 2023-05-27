@@ -16,4 +16,10 @@ contract TrotelCoin {
         totalSupply = _totalSupply;
         balanceOf[msg.sender] = _totalSupply;
     }
+
+    function transfer(address _to, uint256 _value) public returns (bool) {
+        require(balanceOf[msg.sender] >= _value, "Insufficient balance");
+        _transfer(msg.sender, _to, _value);
+        return true;
+    }
 }
