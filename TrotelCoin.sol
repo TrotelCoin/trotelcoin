@@ -4,6 +4,7 @@ contract TrotelCoin {
     string public name = "TrotelCoin";
     string public symbol = "TROTEL";
     uint256 public totalSupply;
+    uint8 public decimals;
 
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
@@ -12,9 +13,23 @@ contract TrotelCoin {
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
     event Burn(address indexed _from, uint256 _value);
 
-    constructor(uint256 _totalSupply) {
+    constructor(uint256 _totalSupply, uint8 _decimals) {
         totalSupply = _totalSupply;
         balanceOf[msg.sender] = _totalSupply;
+        decimals = _decimals;
+    }
+
+    function name() public view returns (string) {
+        return name;
+    }
+    function symbol() public view returns (string) {
+        return symbol;
+    }
+    function decimals() public view returns (uint8) {
+        return decimals;
+    }
+    function totalSupply() public view returns (uint256) {
+        return totalSupply;
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
