@@ -49,4 +49,8 @@ contract TrotelCoin {
         emit Approval(msg.sender, _spender, _value);
         return true;
     }
+
+    function allowance(address _owner, address _spender) public view returns (uint256 remaining) {
+        return ;
+    }
 }
