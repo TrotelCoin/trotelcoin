@@ -61,6 +61,6 @@ contract TrotelCoin {
     }
 
     function allowance(address _owner, address _spender) public view returns (uint256 remaining) {
-        return ;
+        return allowance[_owner][_spender];
     }
 }
