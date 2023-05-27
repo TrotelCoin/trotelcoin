@@ -1,26 +1,25 @@
 # 🚀 TrotelCoin
 
-TrotelCoin est un projet de token ERC-20 sur Ethereum. Le contrat intelligent permet de créer et de gérer un token appelé TrotelCoin (symbole : TROTEL). 🪙
+TrotelCoin is an ERC-20 token project on Ethereum. The smart contract allows for the creation and management of a token called TrotelCoin (symbol: TROTEL). 🪙
 
 ## 📝 Description
 
-TrotelCoin est un token basé sur la norme ERC-20 d'Ethereum. Il permet des transferts de jetons entre différentes adresses Ethereum de manière transparente et sécurisée.
+TrotelCoin is a token based on the Ethereum ERC-20 standard. It enables seamless and secure token transfers between different Ethereum addresses.
 
-## ⚙️ Fonctionnalités
+## ⚙️ Features
 
-- Transfert de jetons entre adresses Ethereum.
-- Vérification des soldes des adresses.
-- Gestion de l'approvisionnement total des jetons.
+- Token transfers between Ethereum addresses.
+- Balances verification of addresses.
+- Management of the total token supply.
 
-## 🧰 Utilisation
+## 🧰 Usage
 
-1. Déployez le contrat TrotelCoin sur le réseau Ethereum de votre choix.
-2. Spécifiez le montant total d'approvisionnement lors du déploiement.
-3. Utilisez les fonctions du contrat pour effectuer des transferts et vérifier les soldes.
+1. Deploy the TrotelCoin contract on the Ethereum network of your choice.
+2. Specify the total supply amount during deployment.
+3. Use the contract's functions to perform transfers and check balances.
 
-## 🏗️ Développement
+## 🏗️ Development
 
-- Solidity est utilisé pour écrire le contrat intelligent.
-- Assurez-vous d'avoir une version compatible du compilateur Solidity.
-- Testez et vérifiez la sécurité du contrat avant le déploiement.
-
+- Solidity is used to write the smart contract.
+- Make sure you have a compatible version of the Solidity compiler.
+- Test and verify the security of the contract before deployment.
