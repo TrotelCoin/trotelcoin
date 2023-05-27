@@ -17,23 +17,6 @@ contract TrotelCoin {
         balanceOf[msg.sender] = totalSupply;
     }
 
-    function name() public view returns (string) {
-        return name;
-    }
-    function symbol() public view returns (string) {
-        return symbol;
-    }
-    function decimals() public view returns (uint8) {
-        return decimals;
-    }
-    function totalSupply() public view returns (uint256) {
-        return totalSupply;
-    }
-
-    function balanceOf(address _owner) public view returns (uint256 balance) {
-        return balanceOf[_owner];
-    }
-
     function transfer(address _to, uint256 _value) public returns (bool success) {
         require(balanceOf[msg.sender] >= _value, "Insufficient balance");
         balanceOf[msg.sender] -= _value;
@@ -58,10 +41,6 @@ contract TrotelCoin {
         allowance[msg.sender][_spender] = _value;
         emit Approval(msg.sender, _spender, _value);
         return true;
-    }
-
-    function allowance(address _owner, address _spender) public view returns (uint256 remaining) {
-        return allowance[_owner][_spender];
     }
 
     function burn(uint256 _value) public returns (bool success) {
