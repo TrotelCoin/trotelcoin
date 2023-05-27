@@ -21,35 +21,43 @@ contract TrotelCoin {
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
         require(balanceOf[msg.sender] >= _value, "Insufficient balance");
-        balanceOf[msg.sender] -= _value;
-        balanceOf[_to] += _value;
-        emit Transfer(msg.sender, _to, _value);
+        _transfer(msg.sender, _to, _value);
         return true;
     }
 
     function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
         require(balanceOf[_from] >= _value, "Insufficient balance");
         require(allowance[_from][msg.sender] >= _value, "Not allowed to transfer");
-        uint256 _newValue = allowance[_from][msg.sender] - _value;
-        balanceOf[_from] -= _value;
-        balanceOf[_to] += _value;
-        emit Transfer(_from, _to, _value);
-        allowance[_from][msg.sender] = _newValue;
-        emit Approval(_from, msg.sender, _newValue);
+        _transfer(_from, _to, _value);
+        _approve(_from, msg.sender, allowance[_from][msg.sender] - _value);
         return true;
     }
 
     function approve(address _spender, uint256 _value) public returns (bool success) {
-        allowance[msg.sender][_spender] = _value;
-        emit Approval(msg.sender, _spender, _value);
+        _approve(msg.sender, _spender, _value);
         return true;
     }
 
     function burn(uint256 _value) public returns (bool success) {
         require(balanceOf[msg.sender] >= _value, "Insufficient balance");
-        balanceOf[msg.sender] -= _value;
-        totalSupply -= _value;
-        emit Burn(msg.sender, _value);
+        _burn(msg.sender, _value);
         return true;
+    }
+
+    function _transfer(address _from, address _to, uint256 _value) internal {
+        balanceOf[_from] -= _value;
+        balanceOf[_to] += _value;
+        emit Transfer(_from, _to, _value);
+    }
+
+    function _approve(address _owner, address _spender, uint256 _value) internal {
+        allowance[_owner][_spender] = _value;
+        emit Approval(_owner, _spender, _value);
+    }
+
+    function _burn(address _from, uint256 _value) internal {
+        balanceOf[_from] -= _value;
+        totalSupply -= _value;
+        emit Burn(_from, _value);
     }
 }
