@@ -2,8 +2,6 @@
 
 pragma solidity ^0.8.0;
 
-import "remix_tests.sol"; // Importez le fichier de bibliothèque pour les tests de Remix
-
 contract TrotelCoin {
     string public name = "TrotelCoin";
     string public symbol = "TROTEL";
