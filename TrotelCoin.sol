@@ -31,7 +31,7 @@ contract TrotelCoin {
     }
 
     function balanceOf(address _owner) public view returns (uint256 balance) {
-        return ;
+        return balanceOf[_owner];
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
