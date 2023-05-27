@@ -22,4 +22,10 @@ contract TrotelCoin {
         _transfer(msg.sender, _to, _value);
         return true;
     }
+
+    function approve(address _spender, uint256 _value) public returns (bool success) {
+        allowance[msg.sender][_spender] = _value;
+        emit Approval(msg.sender, _spender, _value);
+        return true;
+    }
 }
