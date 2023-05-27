@@ -1,0 +1,23 @@
+{
+  "name": "trotelcoin",
+  "version": "1.0.0",
+  "description": "TrotelCoin is an ERC-20 token project on Ethereum. The smart contract allows for the creation and management of a token called TrotelCoin (symbol: TROTEL). 🪙",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trotelalexandre/trotelcoin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trotelalexandre/trotelcoin/issues"
+  },
+  "homepage": "https://github.com/trotelalexandre/trotelcoin#readme",
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2"
+  }
+}
