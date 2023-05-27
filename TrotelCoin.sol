@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 contract TrotelCoin {
     string public name = "TrotelCoin";
     string public symbol = "TROTEL";
-    uint256 public totalSupply;
-    uint8 public decimals;
+    uint256 public totalSupply = 10000;
+    uint8 public decimals = 2;
 
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
@@ -13,10 +13,8 @@ contract TrotelCoin {
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
     event Burn(address indexed _from, uint256 _value);
 
-    constructor(uint256 _totalSupply, uint8 _decimals) {
-        totalSupply = _totalSupply;
+    constructor() {
         balanceOf[msg.sender] = _totalSupply;
-        decimals = _decimals;
     }
 
     function name() public view returns (string) {
