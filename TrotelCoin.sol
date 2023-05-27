@@ -14,7 +14,7 @@ contract TrotelCoin {
     event Burn(address indexed _from, uint256 _value);
 
     constructor() {
-        balanceOf[msg.sender] = _totalSupply;
+        balanceOf[msg.sender] = totalSupply;
     }
 
     function name() public view returns (string) {
