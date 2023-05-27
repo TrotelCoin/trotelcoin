@@ -35,9 +35,9 @@ contract TrotelCoin {
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
-        require(balanceOf[msg.sender] >= _value, "Insufficient balance");
-        _transfer(msg.sender, _to, _value);
-        return true;
+        balanceOf[_from] -= _value;
+        balanceOf[_to] += _value;
+        emit Transfer(_from, _to, _value);
     }
 
     function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
