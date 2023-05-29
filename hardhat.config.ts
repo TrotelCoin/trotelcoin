@@ -1,16 +1,12 @@
-import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox";
+require("@nomiclabs/hardhat-ethers");
+require("@nomiclabs/hardhat-waffle");
 
-const config: HardhatUserConfig = {
-  solidity: "0.8.18",
-  paths: {
-    artifacts: './src/artifacts',
-  },
+module.exports = {
   networks: {
-    hardhat: {
-      chainId: 1337
+    polygon: {
+      url: "https://polygon-rpc-url", // Remplacez par l'URL RPC fournie par Polygon
+      accounts: [privateKey] // Remplacez par votre clé privée du compte qui effectuera le déploiement
     }
-  }
+  },
+  solidity: "0.8.0",
 };
-
-export default config;
