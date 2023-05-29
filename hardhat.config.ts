@@ -6,11 +6,11 @@ const config = require('./config.ts');
 module.exports = {
   networks: {
     polygon: {
-      url: "https://polygon-rpc-url",
+      url: "https://polygon-mainnet.infura.io/v3/" + config.infuraApiKey,
       accounts: [config.privateKey]
     },
     polygonscan: {
-      apiKey: [config.apiKey]
+      apiKey: [config.polygonscanApiKey]
     }
   },
   solidity: "0.8.0",
