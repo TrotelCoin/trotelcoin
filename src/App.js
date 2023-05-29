@@ -1,4 +1,4 @@
-import {useState, useEffect} from React;
+import {useState, useEffect} from 'react';
 import {ethers} from 'ethers';
 import TrotelCoin from './artifacts/contracts/TrotelCoin.sol/TrotelCoin.json';
 import './App.css';
@@ -18,7 +18,7 @@ function App() {
       const provider = new ethers.providers.Web3Provider;
       const contract = new ethers.Contract(tokenAddress, TrotelCoin.abi, provider);
       const balance = await contract.balanceOf(accounts[0]);
-      setBalance(balance.toString());
+      setBalance(balance.toString() / (10 ** contract.decimals));
     }
   }
 
