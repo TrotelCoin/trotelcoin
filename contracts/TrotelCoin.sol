@@ -3,9 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
-contract TrotelCoin is ERC20 {
+contract TrotelCoin {
     string public name = "TrotelCoin";
     string public symbol = "TROTEL";
     uint256 public totalSupply = 10000;
@@ -18,8 +16,8 @@ contract TrotelCoin is ERC20 {
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
     event Burn(address indexed _from, uint256 _value);
 
-    constructor() ERC20(name, symbol) {
-        _mint(msg.sender, totalSupply * (10 ** decimals));
+    constructor() {
+        balanceOf[msg.sender] = totalSupply;
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
