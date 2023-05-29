@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-waffle");
 
-const config = require('./config.js');
+const config = require('./config.ts');
 
 module.exports = {
   networks: {
