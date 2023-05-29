@@ -5,7 +5,7 @@ module.exports = {
   networks: {
     polygon: {
       url: "https://polygon-rpc-url",
-      accounts: 12345
+      accounts: 123456
     }
   },
   solidity: "0.8.0",
