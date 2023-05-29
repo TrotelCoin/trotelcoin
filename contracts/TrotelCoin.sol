@@ -6,7 +6,7 @@ pragma solidity ^0.8.0;
 contract TrotelCoin {
     string public name = "TrotelCoin";
     string public symbol = "TROTEL";
-    uint256 public totalSupply = 10000;
+    uint256 public totalSupply = 1000000;
     uint8 public decimals = 2;
 
     mapping(address => uint256) public balanceOf;
@@ -17,7 +17,7 @@ contract TrotelCoin {
     event Burn(address indexed _from, uint256 _value);
 
     constructor() {
-        balanceOf[msg.sender] = totalSupply * (10 ** decimals);
+        balanceOf[msg.sender] = totalSupply;
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
