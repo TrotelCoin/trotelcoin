@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 
 async function main() {
   const TrotelCoin = await ethers.getContractFactory("TrotelCoin");
-  const trotelcoin = await TrotelCoin.deploy("Contract is deployed !");
+  const trotelcoin = await TrotelCoin.deploy();
 
   await trotelcoin.deployed();
 
