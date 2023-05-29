@@ -15,7 +15,7 @@ function App() {
   async function getBalance() {
     if(typeof window.ethereum !== 'undefined') {
       const accounts = await window.ethereum.request({method: 'eth_requestAccounts'});
-      const provider = new ethers.providers.Web3Provider;
+      const provider = new ethers.providers.Web3Provider();
       const contract = new ethers.Contract(tokenAddress, TrotelCoin.abi, provider);
       const balance = await contract.balanceOf(accounts[0]);
       setBalance(balance.toString() / (10 ** contract.decimals));
