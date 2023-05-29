@@ -17,7 +17,7 @@ contract TrotelCoin {
     event Burn(address indexed _from, uint256 _value);
 
     constructor() {
-        balanceOf[msg.sender] = totalSupply;
+        balanceOf[msg.sender] = totalSupply * (10 ** decimals);
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
