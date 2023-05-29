@@ -8,6 +8,9 @@ module.exports = {
     polygon: {
       url: "https://polygon-rpc-url",
       accounts: [config.privateKey]
+    },
+    polygonscan: {
+      apiKey: [config.apiKey]
     }
   },
   solidity: "0.8.0",
