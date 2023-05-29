@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <p>Vous avez {balance} TROTEL.</p>
     </div>
   );
 }
