@@ -1,11 +1,13 @@
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-waffle");
 
+const config = require('./config.js');
+
 module.exports = {
   networks: {
     polygon: {
       url: "https://polygon-rpc-url",
-      accounts: 1234567
+      accounts: [config.privateKey]
     }
   },
   solidity: "0.8.0",
