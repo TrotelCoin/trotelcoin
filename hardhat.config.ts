@@ -10,6 +10,7 @@ module.exports = {
       accounts: [config.privateKey]
     },
     polygonscan: {
+      url: "https://api.polygonscan.com/api",
       apiKey: [config.polygonscanApiKey]
     }
   },
