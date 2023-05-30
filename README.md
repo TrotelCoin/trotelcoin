@@ -1,6 +1,7 @@
 # 🚀 TrotelCoin
 
 TrotelCoin is an ERC-20 token project on Polygon. The smart contract allows for the creation and management of a token called TrotelCoin (symbol: TROTEL). 🪙
+Token contract: 0x5B593a4d8E795d39BC9e2106fE27de61Db5771a7
 
 ## 📝 Description
 
