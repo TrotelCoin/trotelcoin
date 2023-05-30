@@ -14,7 +14,7 @@ TrotelCoin is a token based on the Ethereum ERC-20 standard. It enables seamless
 
 ## 🧰 Usage
 
-1. Deploy the TrotelCoin contract on the Ethereum network of your choice.
+1. Deploy the TrotelCoin contract on the Ethereum network of your choice, Polygon for TrotelCoin.
 2. Specify the total supply amount during deployment.
 3. Use the contract's functions to perform transfers and check balances.
 
