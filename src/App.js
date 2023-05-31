@@ -8,7 +8,7 @@ function App() {
   const [account, setAccount] = useState();
   // const [contractAddress, setContractAddress] = useState();
 
-  const [connectTextSt, setConnectTextSt] = useState("Connect");
+  const [connectTextSt, setConnectTextSt] = useState("");
   const [connectLinkSt, setConnectLinkSt] = useState("");
 
   async function connectWallet() {

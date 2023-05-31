@@ -20,7 +20,7 @@ async function walletConnectFcn() {
         method: 'wallet_addEthereumChain',
         params: [
             {
-                chainName: 'Binance Smart Chain',
+                chainName: 'BSC',
                 chaindId: chaindId,
                 nativeCurrency: {name: 'BNB', symbol: 'BNB', decimals: 18},
                 rpcUrls: ['https://bsc-dataseed1.defibit.io'],
@@ -42,7 +42,6 @@ async function walletConnectFcn() {
         })
         .catch((connectError) => {
             console.log(`${connectError.message.toString()}`);
-            return;
         });
 
     return [selectedAccount, provider];
