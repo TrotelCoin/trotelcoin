@@ -1,28 +1,26 @@
-import React, {useState, useEffect} from 'react';
-import {ethers} from 'ethers';
+import React, {useState} from 'react';
 import MyGroup from './components/MyGroup.js';
 import walletConnectFcn from './components/trotelcoin/walletConnect.js';
 import './styles/App.css';
-import { Button } from '@mui/material';
 
 function App() {
   const [walletData, setWalletData] = useState();
   const [account, setAccount] = useState();
-  const [contractAddress, setContractAddress] = useState();
+  // const [contractAddress, setContractAddress] = useState();
 
   const [connectTextSt, setConnectTextSt] = useState("Connect");
   const [connectLinkSt, setConnectLinkSt] = useState("");
 
   async function connectWallet() {
     if (account !== undefined) {
-      setConnectTextSt('Account ${account} already connected.');
+      setConnectTextSt(`Account ${account} already connected.`);
     } else {
       const wData = await walletConnectFcn();
 
       let newAccount = wData[0];
       if (newAccount !== undefined) {
-        setConnectTextSt('Account ${newAccount} connected.');
-        setConnectLinkSt('https://bscscan.com/address/${newAccount}');
+        setConnectTextSt(`Account ${newAccount} connected.`);
+        setConnectLinkSt(`https://bscscan.com/address/${newAccount}`);
 
         setWalletData(wData);
         setAccount(newAccount);

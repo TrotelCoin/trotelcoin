@@ -35,13 +35,13 @@ async function walletConnectFcn() {
     console.log('Connecting wallet...');
     let selectedAccount;
     await provider
-        .send('eth_requestAccount', [])
+        .send('eth_requestAccounts', [])
         .then((accounts) => {
             selectedAccount = accounts[0];
-            console.log('Selected account ${selectedAccount}');
+            console.log(`Selected account ${selectedAccount}`);
         })
         .catch((connectError) => {
-            console.log('${connectError.message.toString()}');
+            console.log(`${connectError.message.toString()}`);
             return;
         });
 
