@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import {ethers} from 'ethers';
-import TrotelCoin from './artifacts/contracts/TrotelCoin.sol/TrotelCoin.json';
+// import TrotelCoin from './artifacts/contracts/TrotelCoin.sol/TrotelCoin.json';
 import './App.css';
 import { Button } from '@mui/material';
 
@@ -17,7 +17,7 @@ function App() {
     if(typeof window.ethereum !== 'undefined') {
       const accounts = await window.ethereum.request({method: 'eth_requestAccounts'});
       const provider = new ethers.providers.Web3Provider();
-      const contract = new ethers.Contract(tokenAddress, TrotelCoin.abi, provider);
+      // const contract = new ethers.Contract(tokenAddress, TrotelCoin.abi, provider);
       const balance = await contract.balanceOf(accounts[0]);
       setBalance(balance.toString() / (10 ** contract.decimals));
     }
