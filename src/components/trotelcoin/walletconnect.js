@@ -1,4 +1,4 @@
-import ethers from 'ethers';
+import {ethers} from 'ethers';
 const network = 'bsc';
 
 async function walletConnectFcn() {
@@ -45,7 +45,7 @@ async function walletConnectFcn() {
             return;
         });
 
-    return [selectedAccount, provider;
+    return [selectedAccount, provider];
 
 }
 
