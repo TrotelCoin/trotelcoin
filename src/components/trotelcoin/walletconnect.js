@@ -1,7 +1,7 @@
 import ethers from 'ethers';
 const network = 'bsc';
 
-function walletConnectFcn() {
+async function walletConnectFcn() {
     console.log('\n============================');
 
     // ETHERS PROVIDER
