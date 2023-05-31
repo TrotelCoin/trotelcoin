@@ -7,7 +7,7 @@ function MyGroup(props) {
     <div>
         <MyText text={props.text} link={props.link}></MyText>
         <MyButton fcn={props.fcn} buttonLabel={props.buttonLabel}></MyButton>
-    </div>>
+    </div>
   );
 }
 
