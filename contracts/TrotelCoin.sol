@@ -6,8 +6,8 @@ pragma solidity ^0.8.0;
 contract TrotelCoin {
     string public name = "TrotelCoin";
     string public symbol = "TROTEL";
-    uint256 public totalSupply = 1000000;
-    uint8 public decimals = 2;
+    uint256 public totalSupply = 100000 * (10 ** 18);
+    uint8 public decimals = 18;
 
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
@@ -39,12 +39,6 @@ contract TrotelCoin {
         return true;
     }
 
-    function burn(uint256 _value) public returns (bool success) {
-        require(balanceOf[msg.sender] >= _value, "Insufficient balance");
-        _burn(msg.sender, _value);
-        return true;
-    }
-
     function _transfer(address _from, address _to, uint256 _value) internal {
         balanceOf[_from] -= _value;
         balanceOf[_to] += _value;
@@ -54,11 +48,5 @@ contract TrotelCoin {
     function _approve(address _owner, address _spender, uint256 _value) internal {
         allowance[_owner][_spender] = _value;
         emit Approval(_owner, _spender, _value);
-    }
-
-    function _burn(address _from, uint256 _value) internal {
-        balanceOf[_from] -= _value;
-        totalSupply -= _value;
-        emit Burn(_from, _value);
     }
 }
