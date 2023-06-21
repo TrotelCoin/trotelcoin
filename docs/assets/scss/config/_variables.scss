@@ -1,0 +1,27 @@
+/*=============== GOOGLE FONTS ===============*/
+import '@fontsource/aileron';
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+    --header-height: 3.5rem;
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: #FDCC54;
+    --text-color: #000000;
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: 'Aileron', sans-serif;
+
+    --biggest-font-size: 2.375rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .75rem;
+
+    // Responsive typography
+    @media screen and (min-width: 1024px){
+        --biggest-font-size: 5rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: .813rem;
+    }
+}
