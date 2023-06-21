@@ -176,24 +176,27 @@ img {
 .home__description {
   justify-content: center;
   margin-left: 10px;
-  margin-bottom: 100px;
   column-gap: .5rem;
   font-size: var(--norm-font-size);
   align-self: flex-end;
 }
 
 .home__button {
-  margin-top: 2rem;
   display: inline-block;
-  background-color: var(--text-color);
-  color: #fff;
+  margin-top: 20px;
+  background-color: var(--soon-color);
+  color: #ffffff;
   padding: .80rem 1.5rem;
   border-radius: 3rem;
   transition: .4s;
+  margin-bottom: 100px;
+  border: none;
 }
 
 .home__button:hover {
-  box-shadow: 0 4px 12px hsla(38, 69%, 8%, .2);
+  transform: scale(1.1);
+  transition: .4s;
+  background-color: var(--trotel-color);
 }
 
 .home__img img {
