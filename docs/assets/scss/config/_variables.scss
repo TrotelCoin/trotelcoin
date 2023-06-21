@@ -1,5 +1,11 @@
 /*=============== GOOGLE FONTS ===============*/
-import '@fontsource/aileron';
+@font-face {
+    font-family: 'Aileron';
+    src: url('~@fontsource/aileron/files/aileron-lig-webfont.woff2') format('woff2'),
+         url('~@fontsource/aileron/files/aileron-lig-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }  
 
 /*=============== VARIABLES CSS ===============*/
 :root{
