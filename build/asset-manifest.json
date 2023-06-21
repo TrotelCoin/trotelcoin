@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/trotelcoin/static/css/main.073c9b0a.css",
+    "main.js": "/trotelcoin/static/js/main.0889de02.js",
+    "static/js/787.e257d09e.chunk.js": "/trotelcoin/static/js/787.e257d09e.chunk.js",
+    "index.html": "/trotelcoin/index.html",
+    "main.073c9b0a.css.map": "/trotelcoin/static/css/main.073c9b0a.css.map",
+    "main.0889de02.js.map": "/trotelcoin/static/js/main.0889de02.js.map",
+    "787.e257d09e.chunk.js.map": "/trotelcoin/static/js/787.e257d09e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0889de02.js"
+  ]
+}
