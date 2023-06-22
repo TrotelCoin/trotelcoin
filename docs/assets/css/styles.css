@@ -195,6 +195,7 @@ img {
   transition: .4s;
   margin-bottom: 100px;
   border: none;
+  font-weight: 800;
 }
 
 .home__button:hover {
