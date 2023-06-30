@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 import { Network, Alchemy } from 'alchemy-sdk';
+import MyGroup from './components/MyGroup.js';
+import walletConnectFcn from './components/trotelcoin/walletConnect.js';
+import './styles/App.css';
 
 const settings = {
     apiKey: "aRNqpR5QDXjb7qy9nuzeX5zWJziS8wVQ",
@@ -10,10 +13,6 @@ const alchemy = new Alchemy(settings);
 
 // get the latest block
 const latestBlock = alchemy.core.getBlock("latest").then(console.log);
-
-import MyGroup from './components/MyGroup.js';
-import walletConnectFcn from './components/trotelcoin/walletConnect.js';
-import './styles/App.css';
 
 function App() {
   const [walletData, setWalletData] = useState();
