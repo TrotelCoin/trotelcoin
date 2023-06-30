@@ -2,7 +2,7 @@
 
 TrotelCoin is an BEP-20 token project on BSC. The smart contract allows for the creation and management of a token called TrotelCoin (symbol: TROTEL). 🪙
 
-Token contract: 0x5B593a4d8E795d39BC9e2106fE27de61Db5771a7
+Token contract: 0xf04ab1a43cBA1474160B7B8409387853D7Be02d5
 
 ## 📝 Description
 
@@ -16,7 +16,7 @@ TrotelCoin is a token based on the BSC BEP-20 standard. It enables seamless and 
 
 ## 🧰 Usage
 
-1. Deploy the TrotelCoin contract on the Ethereum network of your choice, BSC here.
+1. Deploy the TrotelCoin contract on the BSC network.
 2. Specify the total supply amount during deployment.
 3. Use the contract's functions to perform transfers and check balances.
 
