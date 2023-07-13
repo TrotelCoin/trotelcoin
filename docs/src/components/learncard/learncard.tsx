@@ -1,4 +1,3 @@
-import React from 'react';
 import "./learncard.css";
 
 const learncard = () => {
