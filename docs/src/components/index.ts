@@ -1,8 +1,8 @@
-import community from './components/community/community';
-import footer from './components/footer/footer';
-import header from './components/header/header';
-import hero from './components/hero/hero';
-import learncard from './components/learncard/learncard';
-import token from './components/token/token';
+import community from './community/community';
+import footer from './footer/footer';
+import header from './header/header';
+import hero from './hero/hero';
+import learncard from './learncard/learncard';
+import token from './token/token';
 
 export { community, footer, header, hero, learncard, token };
