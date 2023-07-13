@@ -1,8 +1,8 @@
-import community from './community/community';
-import footer from './footer/footer';
-import header from './header/header';
-import hero from './hero/hero';
-import learncard from './learncard/learncard';
-import token from './token/token';
+import Community from './Community/Community';
+import Footer from './Footer/Footer';
+import Header from './Header/Header';
+import Hero from './Hero/Hero';
+import Learncard from './Learncard/Learncard';
+import Token from './Token/Token';
 
-export { community, footer, header, hero, learncard, token };
+export { Community, Footer, Header, Hero, Learncard, Token };
