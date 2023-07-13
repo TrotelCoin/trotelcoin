@@ -1,6 +1,4 @@
-name: Deploy TrotelCoin's Vite app
-
-on:
+on: Deploy TrotelCoin's website
   push:
     branches:
       - main
