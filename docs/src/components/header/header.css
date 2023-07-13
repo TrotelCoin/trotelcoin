@@ -71,7 +71,6 @@ a {
 
 a:hover {
     color: var(--yellow-color);
-    font-weight: 800;
     transition-duration: 0.3s;
 }
 
@@ -98,7 +97,6 @@ button {
 
 button:hover {
     background: var(--yellow-color);
-    font-weight: 800;
     transform: scale(1.2);
     transition-duration: 0.3s;
 }
