@@ -1,0 +1,86 @@
+.community {
+    position: absolute;
+    top: 926px;
+    left: 67px;
+    right: 66px;
+    bottom: 2597px;
+    width: 1307.015px;
+    height: 357px;
+    flex-shrink: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.community-title {
+    position: absolute;
+    top: 0px;
+    left: 342.5075px;
+    right: 342.5075px;
+    margin: 0;
+    color: var(--blue-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.line-community-left {
+    position: absolute;
+    top: 72px;
+    right: 1006px;
+    bottom: 285px;
+    width: 301.015px;
+    height: 3px;
+    background: var(--black-color);
+}
+
+.line-community-right {
+    position: absolute;
+    top: 72px;
+    left: 1006px;
+    bottom: 285px;
+    width: 301.015px;
+    height: 3px;
+    background: var(--black-color);
+}
+
+.community-statistics {
+    position: absolute;
+    top: 213px;
+    left: 301px;
+    right: 301px;
+    width: 705px;
+    height: 144px;
+    flex-shrink: 0;
+}
+
+.statistics-text-learners {
+    position: absolute;
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.statistics-text-courses {
+    position: absolute;
+    left: 532px;
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.statistic-community {
+    color: var(--blue-color);
+    font-size: 96px;
+}

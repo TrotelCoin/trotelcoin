@@ -1,0 +1,108 @@
+.learncard {
+    position: absolute;
+    top: 2770px;
+    left: 197px;
+    right: 197px;
+    bottom: 591px;
+    width: 1046px;
+    height: 519px;
+    flex-shrink: 0;
+}
+
+.lean-card-text {
+    position: absolute;
+    top: 47px;
+    left: 121px;
+    right: 120px;
+    bottom: 46px;
+    width: 805px;
+    height: 426px;
+    flex-shrink: 0;
+}
+
+.ready-text {
+    position: absolute;
+    top: 47px;
+    left: 372px;
+    right: 372px;
+    bottom: 436px;
+    width: 302px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.learn-crypto-now {
+    position: absolute;
+    top: 73px;
+    left: 121px;
+    right: 120px;
+    bottom: 158px;
+    display: flex;
+    width: 805px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#launch-app-card {
+    position: absolute;
+    top: 374px;
+    left: 326px;
+    right: 325px;
+    bottom: 46px;
+    display: flex;
+    width: 395px;
+    height: 99px;
+    padding: 22px 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--black-color);
+    color: var(--white-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#launch-app-card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+#rectangle-learn-card {
+    width: 1046px;
+    height: 519px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(142deg, #FFDF1F 0%, #FFF3AA 28.13%, #FFF5BA 95.31%, #FFF5BB 100%);
+    transition-duration: 0.3s;
+}
+
+#rectangle-learn-card:hover {
+    transition-duration: 0.3s;
+}

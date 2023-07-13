@@ -24,7 +24,8 @@ nav {
     width: 75px;
     height: 75px;
     flex-shrink: 0;
-    background: url(../../assets/trotelcoin-minimalist.png), white 100% / cover no-repeat;
+    background: url(../../assets/trotelcoin-minimalist.jpg), white 100% / cover no-repeat;
+    background-size: 75px;
 }
 
 .line-navbar {
@@ -70,7 +71,7 @@ a {
 }
 
 a:hover {
-    color: var(--yellow-color);
+    color: var(--blue-color);
     transition-duration: 0.3s;
 }
 
@@ -81,7 +82,7 @@ a:hover {
     bottom: 0px;
 }
 
-button {
+#app-button {
     position: absolute;
     top: 16.5px;
     left: 912px;
@@ -95,10 +96,10 @@ button {
     transition-duration: 0.3s;
 }
 
-button:hover {
-    background: var(--yellow-color);
+#app-button:hover {
     transform: scale(1.1);
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .button-text {

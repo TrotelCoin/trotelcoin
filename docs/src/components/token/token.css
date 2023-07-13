@@ -1,0 +1,227 @@
+.token {
+    position: absolute;
+    top: 1380px;
+    left: 66.5px;
+    right: 66.5px;
+    bottom: 1350px;
+    width: 1307.096px;
+    height: 1150px;
+    flex-shrink: 0;
+}
+
+.token-title {
+    position: absolute;
+    top: 0px;
+    left: 390.5px;
+    right: 390.5px;
+    margin: 0;
+    color: var(--yellow-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.line-token-left {
+    position: absolute;
+    top: 72px;
+    right: 885px;
+    bottom: 1078px;
+    width: 422.096px;
+    height: 3px;
+    background: var(--black-color);
+}
+
+.line-token-right {
+    position: absolute;
+    top: 72px;
+    left: 885px;
+    bottom: 1079px;
+    width: 422.096px;
+    height: 3px;
+    background: var(--black-color);
+}
+
+.token-statistics {
+    position: absolute;
+    top: 194px;
+    left: 172px;
+    right: 195px;
+    bottom: 812px;
+    width: 940px;
+    height: 144px;
+    flex-shrink: 0;
+}
+
+.token-text-supply {
+    position: absolute;
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.token-text-circulation {
+    position: absolute;
+    left: 573px;
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.statistic-token {
+    color: var(--yellow-color);
+    font-size: 96px;
+}
+
+.partners {
+    position: absolute;
+    top: 582px;
+    left: 638px;
+    right: 142px;
+    bottom: 152px;
+    width: 527px;
+    height: 416px;
+    flex-shrink: 0;
+}
+
+.platforms {
+    width: 527px;
+    height: 416px;
+    flex-shrink: 0;
+}
+
+.platforms-image {
+    width: 96px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+#pancakeswap {
+    position: absolute;
+    top: 37px;
+    left: 80px;
+    right: 351px;
+    bottom: 283px;
+}
+
+#coinmarketcap {
+    position: absolute;
+    top: 37px;
+    left: 352px;
+    right: 81px;
+    bottom: 283px;
+}
+
+#flooz {
+    position: absolute;
+    top: 262px;
+    left: 80px;
+    right: 351px;
+    bottom: 62px;
+}
+
+#bscchain {
+    position: absolute;
+    top: 262px;
+    left: 350px;
+    right: 81px;
+    bottom: 58px;
+}
+
+.partners-label {
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.flooz {
+    position: absolute;
+    top: 430px;
+    left: 144px;
+    right: 763px;
+    flex-shrink: 0;
+}
+
+.rectangle-partners {
+    width: 256px;
+    height: 191px;
+    flex-shrink: 0;
+    border: 3px solid var(--black-color);
+    transition-duration: 0.3s;
+}
+
+.rectangle-partners:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#rectangle-pancakeswap {
+    position: absolute;
+    right: 271px;
+    bottom: 225px;
+}
+
+#rectangle-coinmarketcap {
+    position: absolute;
+    left: 271px;
+    bottom: 225px;
+}
+
+#rectangle-flooz {
+    position: absolute;
+    top: 225px;
+    right: 271px;
+}
+
+#rectangle-bscchain {
+    position: absolute;
+    top: 225px;
+    left: 271px;
+}
+
+#pancakeswap-label {
+    position: absolute;
+    top: 141px;
+    left: 56px;
+    right: 56px;
+    bottom: 20px;
+}
+
+#coinmarketcap-label {
+    position: absolute;
+    top: 141px;
+    left: 48px;
+    right: 49px;
+    bottom: 20px;
+}
+
+#flooz-label {
+    position: absolute;
+    top: 141px;
+    left: 56px;
+    right: 56px;
+    bottom: 20px;
+}
+
+#bscchain-label {
+    position: absolute;
+    top: 141px;
+    left: 48px;
+    right: 49px;
+    bottom: 20px;
+}
