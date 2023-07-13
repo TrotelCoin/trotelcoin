@@ -1,8 +1,8 @@
-import Community from './Community/Community.tsx';
-import Footer from './Footer/Footer.tsx';
-import Header from './Header/Header.tsx';
-import Hero from './Hero/Hero.tsx';
-import Learncard from './Learncard/Learncard.tsx';
-import Token from './Token/Token.tsx';
+import Community from './Community/Community';
+import Footer from './Footer/Footer';
+import Header from './Header/Header';
+import Hero from './Hero/Hero';
+import Learncard from './Learncard/Learncard';
+import Token from './Token/Token';
 
 export { Community, Footer, Header, Hero, Learncard, Token };
