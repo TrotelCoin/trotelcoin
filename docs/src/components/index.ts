@@ -5,4 +5,11 @@ import Hero from './Hero/Hero';
 import Learncard from './Learncard/Learncard';
 import Token from './Token/Token';
 
-export { Community, Footer, Header, Hero, Learncard, Token };
+export {
+  Community,
+  Footer,
+  Header,
+  Hero,
+  Learncard,
+  Token
+};
