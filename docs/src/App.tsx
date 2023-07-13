@@ -1,9 +1,13 @@
 import { community, footer, header, hero, learncard, token } from "./components";
 
-export const TrotelCoin = () => {
+const TrotelCoin = () => {
   return (
-    <header />
-  )
-}
+    <div>
+        <header />
+        <hero />
+        <>
+    </div>
+  );
+};
 
 export default TrotelCoin;
