@@ -23,7 +23,7 @@ const Header = () => {
         <div className="line-navbar"></div>
         <div className="pages">
           <a href="#">Home</a>
-          <a target="_blank" href="../../../whitepapers/trotelcoin-whitepaper-english.pdf">
+          <a target="_blank" href="../../whitepaper.pdf">
             Whitepaper
           </a>
           <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
