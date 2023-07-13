@@ -19,21 +19,27 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className="trotelcoin-minimalist"></div>
-        <div className="line-navbar"></div>
-        <div className="pages">
-          <a href="#">Home</a>
-          <a target="_blank" href="../../whitepaper.pdf">
-            Whitepaper
+          <img className='trotelcoin-logo' src="../../assets/trotelcoin-minimalist.jpg" alt="TrotelCoin logo"></img>
+          <img src="../../assets/line-navbar.svg" alt="just a line"></img>
+          <ul className="pages">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a target="_blank" href="../../whitepaper.pdf">Whitepaper</a>
+            </li>
+            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+              <li>
+                <a href="../../staking">{getStakingText()}</a>
+              </li>
+            </div>
+            <li>
+              <a href="../../about">About</a>
+            </li>
+          </ul>
+          <a href="https://app.trotelcoin.com">
+            <button className="button-text" id="app-button">App</button>
           </a>
-          <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <a href="../../staking">{getStakingText()}</a>
-          </div>
-          <a href="../../about">About</a>
-        </div>
-        <a href="https://app.trotelcoin.com">
-          <button className="button-text" id="app-button">App</button>
-        </a>
       </nav>
     </header>
   );
