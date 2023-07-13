@@ -2,7 +2,7 @@ import "./Learncard.css";
 
 const Learncard = () => {
   return (
-    <div>Learncard</div>
+    <div></div>
   )
 }
 

@@ -1,0 +1,114 @@
+header {
+    position: absolute;
+    top: 40px;
+    bottom: 3765px;
+    left: 180px;
+    right: 180px;
+    display: flex;
+    width: 1080px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+nav {
+    width: 1080px;
+    height: 75px;
+    flex-shrink: 0;
+}
+
+.trotelcoin-minimalist {
+    position: absolute;
+    right: 1005px;
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    background: url(../../assets/trotelcoin-minimalist.png), white 100% / cover no-repeat;
+}
+
+.line-navbar {
+    position: absolute;
+    top: 37px;
+    left: 107px;
+    right: 744px;
+    bottom: 38px;
+    width: 229px;
+    height: 3px;
+    background: var(--black-color);
+}
+
+.pages {
+    position: absolute;
+    top: 19px;
+    left: 369px;
+    right: 210px;
+    bottom: 20px;
+    display: flex;
+    width: 501.101px;
+    height: 36px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32.519px;
+    flex-shrink: 0;
+    list-style-type: none;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--black-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: var(--yellow-color);
+    font-weight: 800;
+    transition-duration: 0.3s;
+}
+
+.home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+button {
+    position: absolute;
+    top: 16.5px;
+    left: 912px;
+    bottom: 16.5px;
+    width: 167.677px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: none;
+    background: var(--blue-color);
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background: var(--yellow-color);
+    font-weight: 800;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.button-text {
+    color: var(--white-color);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

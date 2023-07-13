@@ -2,7 +2,7 @@ import "./Token.css";
 
 const Token = () => {
   return (
-    <div>Token</div>
+    <div></div>
   )
 }
 
