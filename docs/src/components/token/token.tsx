@@ -1,9 +1,9 @@
-import "./token.css";
+import "./Token.css";
 
-const token = () => {
+const Token = () => {
   return (
-    <div>token</div>
+    <div>Token</div>
   )
 }
 
-export default token;
+export default Token;

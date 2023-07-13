@@ -1,9 +1,9 @@
-import "./learncard.css";
+import "./Learncard.css";
 
-const learncard = () => {
+const Learncard = () => {
   return (
-    <div>learncard</div>
+    <div>Learncard</div>
   )
 }
 
-export default learncard;
+export default Learncard;

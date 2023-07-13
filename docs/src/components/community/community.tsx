@@ -1,9 +1,9 @@
-import "./community.css";
+import "./Community.css";
 
-const community = () => {
+const Community = () => {
   return (
-    <div>community</div>
+    <div>Community</div>
   )
 }
 
-export default community;
+export default Community;
