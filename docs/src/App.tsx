@@ -5,6 +5,10 @@ const TrotelCoin = () => {
     <div>
         <Header></Header>
         <Hero></Hero>
+        <Community></Community>
+        <Token></Token>
+        <Learncard></Learncard>
+        <Footer></Footer>
     </div>
   );
 };
