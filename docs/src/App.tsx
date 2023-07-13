@@ -6,4 +6,4 @@ export const TrotelCoin = () => {
   )
 }
 
-export default TrotelCoin;
+export default TrotelCoin
