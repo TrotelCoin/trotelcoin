@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import "./Token.css";
