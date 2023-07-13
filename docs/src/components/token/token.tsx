@@ -39,28 +39,28 @@ const Token = () => {
       </div>
       <div className='partners'>
         <div className='platforms'>
-          <img className='platforms-image' id='pancakeswap' src='../../assets/pancakeswap.png' alt='PancakeSwap'></img>
-          <img className='platforms-image' id='coinmarketcap' src='../../assets/coinmarketcap.png' alt='CoinMarketCap'></img>
-          <img className='platforms-image' id='flooz' src='../../assets/flooz.png' alt='Flooz'></img>
-          <img className='platforms-image' id='bscchain' src='../../assets/binancesmartchain.png' alt='BSC Chain'></img>
           <a target='_blank' href='https://pancakeswap.finance/swap?outputCurrency=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5'>
             <div className='rectangle-partners' id='rectangle-pancakeswap'>
+              <img className='platforms-image' id='pancakeswap' src='../../assets/pancakeswap.png' alt='PancakeSwap'></img>
               <p className='partners-label' id='pancakeswap-label'>PancakeSwap</p>
             </div>
           </a>
           <a target='_blank' href='https://coinmarketcap.com/currencies/trotelcoin-v2/'>
             <div className='rectangle-partners' id='rectangle-coinmarketcap'>
+              <img className='platforms-image' id='coinmarketcap' src='../../assets/coinmarketcap.png' alt='CoinMarketCap'></img>
               <p className='partners-label' id='coinmarketcap-label'>CoinMarketCap</p>
             </div>
           </a>
           <a target='_blank' href='https://flooz.xyz/trade/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5?network=bsc'>
             <div className='rectangle-partners' id='rectangle-flooz'>
+              <img className='platforms-image' id='flooz' src='../../assets/flooz.png' alt='Flooz'></img>
               <p className='partners-label' id='flooz-label'>Flooz</p>
             </div>
           </a>
           <a target='_blank' href='https://bscscan.com/token/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5'>
             <div className='rectangle-partners' id='rectangle-bscchain'>
-              <p className='partners-label' id='bscchain-label'>BSC Chain</p>
+              <img className='platforms-image' id='bscchain' src='../../assets/binancesmartchain.png' alt='BSC Chain'></img>
+              <p className='partners-label' id='bscchain-label'>BNB Chain</p>
             </div>
           </a>
         </div>

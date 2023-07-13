@@ -15,7 +15,7 @@ const Footer = () => {
         <h3 className="footer-title">Token</h3>
         <a target="_blank" href="https://flooz.xyz/trade/how-to-buy/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5?network=bsc"><p>Buy $TROTEL</p></a>
         <a href="https://staking.trotelcoin.com"><p>Staking</p></a>
-        <a target="_blank" href="https://bscscan.com/token/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5"><p>BSC Scan</p></a>
+        <a target="_blank" href="https://bscscan.com/token/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5"><p>BNB Chain Explorer</p></a>
         <a target="_blank" href="https://coinmarketcap.com/currencies/trotelcoin-v2/"><p>CoinMarketCap</p></a>
       </div>
       <div className="socials">
