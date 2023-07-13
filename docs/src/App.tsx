@@ -1,11 +1,10 @@
-import { community, footer, header, hero, learncard, token } from "./components";
+import { Community, Footer, Header, Hero, Learncard, Token } from "./components";
 
 const TrotelCoin = () => {
   return (
     <div>
-        <header />
-        <hero />
-        <>
+        <Header></Header>
+        <Hero></Hero>
     </div>
   );
 };
