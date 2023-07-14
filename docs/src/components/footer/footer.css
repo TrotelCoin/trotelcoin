@@ -57,22 +57,6 @@ a:hover {
     flex-shrink: 0;
 }
 
-.token {
-    position: absolute;
-    top: 20px;
-    left: 945px;
-    right: 364px;
-    bottom: 123px;
-    display: flex;
-    width: 131px;
-    height: 208px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 19px;
-    flex-shrink: 0;
-}
-
 .socials {
     position: absolute;
     top: 20px;

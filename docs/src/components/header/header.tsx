@@ -2,20 +2,6 @@ import { useState } from 'react';
 import './Header.css';
 
 const Header = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  const getStakingText = () => {
-    return isHovered ? 'Soon...' : 'Staking';
-  };
-
   return (
     <header>
       <nav>
@@ -28,11 +14,9 @@ const Header = () => {
             <li>
               <a target="_blank" href="../../whitepaper.pdf">Whitepaper</a>
             </li>
-            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-              <li>
-                <a href="../../staking">{getStakingText()}</a>
-              </li>
-            </div>
+            <li>
+              <a href="../../staking">Soon...</a>
+            </li>
             <li>
               <a href="../../about">About</a>
             </li>

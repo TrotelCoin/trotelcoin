@@ -24,20 +24,25 @@ const Token = () => {
       <div className="line-token-right"></div>
       <h1 className="token-title">Token.</h1>
       <div className="token-statistics">
-        <h2 className="token-text-supply">
-          <span className="statistic-token">
-            <CountUp end={count1} duration={6} suffix="k" />
-          </span>
-          {' total supply'}
-        </h2>
-        <h2 className="token-text-circulation">
-          <span className="statistic-token">
-            <CountUp end={count2} duration={6} suffix="k" />
-          </span>
-          {' in circulation'}
-        </h2>
+        <img className="divider" src="../../assets/divider.svg"></img>
+        <div className="token-stats-flex">
+          <h2 className="token-text-supply">
+            <span className="statistic-token">
+              <CountUp end={count1} duration={6} suffix="k" /><br></br>
+            </span>
+            {' total supply'}
+          </h2>
+          <h2 className="token-text-circulation">
+            <span className="statistic-token">
+              <CountUp end={count2} duration={6} suffix="k" /><br></br>
+            </span>
+            {' in circulation'}
+          </h2>
+        </div>
+        <img className="divider" src="../../assets/divider.svg"></img>
       </div>
       <div className='partners'>
+      <iframe className='flooz' width="400" height="720" frameBorder="0" allow="clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *" src="https://flooz.xyz/embed/trade?swapDisabled=false&swapToTokenAddress=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5&swapLockToToken=true&onRampDisabled=false&onRampAsDefault=true&onRampDefaultAmount=50&onRampTokenAddress=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5&onRampLockToken=true&stakeDisabled=true&network=bsc&lightMode=true&primaryColor=%23eecc00&backgroundColor=transparent&roundedCorners=10&padding=20&refId=WfjJqs" ></iframe>
         <div className='platforms'>
           <a target='_blank' href='https://pancakeswap.finance/swap?outputCurrency=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5'>
             <div className='rectangle-partners' id='rectangle-pancakeswap'>
@@ -65,7 +70,6 @@ const Token = () => {
           </a>
         </div>
       </div>
-      <iframe className='flooz' width="400" height="720" frameBorder="0" allow="clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *" src="https://flooz.xyz/embed/trade?swapDisabled=false&swapToTokenAddress=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5&swapLockToToken=true&onRampDisabled=false&onRampAsDefault=true&onRampDefaultAmount=50&onRampTokenAddress=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5&onRampLockToken=true&stakeDisabled=true&network=bsc&lightMode=false&primaryColor=%23eecc00&backgroundColor=transparent&roundedCorners=10&padding=20&refId=WfjJqs" ></iframe>
     </section>
   )
 }

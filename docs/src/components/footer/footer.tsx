@@ -11,7 +11,7 @@ const Footer = () => {
         <a href="../../about"><p>About</p></a>
         <a href="https://app.trotelcoin.com"><p>The App</p></a>
       </div>
-      <div className="token">
+      <div className="token-footer">
         <h3 className="footer-title">Token</h3>
         <a target="_blank" href="https://flooz.xyz/trade/how-to-buy/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5?network=bsc"><p>Buy $TROTEL</p></a>
         <a href="https://staking.trotelcoin.com"><p>Staking</p></a>

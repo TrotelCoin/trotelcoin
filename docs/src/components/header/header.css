@@ -2,7 +2,7 @@ nav {
     position: relative;
     width: 1080px;
     top: 40px;
-    left: 180px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,25 +43,20 @@ a:hover {
     transition-duration: 0.3s;
 }
 
-.home {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-}
-
 #app-button {
     border-radius: 50px;
     padding: 3px 58px 3px 58px;
     border: 1px solid #000;
-    background: #EC0;
+    background: var(--yellow-color);
+    color: #000;
     transition-duration: 0.3s;
 }
 
 #app-button:hover {
-    transform: scale(1.1);
     transition-duration: 0.3s;
+    background: #000;
     cursor: pointer;
+    color: #fff;
 }
 
 .button-text {

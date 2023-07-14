@@ -20,22 +20,24 @@ const Community = () => {
 
   return (
     <section className="community" ref={ref}>
-      <div className="line-community-left"></div>
-      <div className="line-community-right"></div>
       <h1 className="community-title">Community.</h1>
       <div className="community-statistics">
-        <h2 className="statistics-text-learners">
-          <span className="statistic-community">
-            <CountUp end={count1} duration={6} suffix="+" />
-          </span>
-          {' learners'}
-        </h2>
-        <h2 className="statistics-text-courses">
-          <span className="statistic-community">
-            <CountUp end={count2} duration={6} />
-          </span>
-          {' courses'}
-        </h2>
+        <img className="divider" src="../../assets/divider.svg"></img>
+        <div className='community-stats-flex'>
+          <h2 className="statistics-text-learners">
+            <span className="statistic-community">
+              <CountUp end={count1} duration={6} suffix="+" /><br></br>
+            </span>
+            {' learners'}
+          </h2>
+          <h2 className="statistics-text-courses">
+            <span className="statistic-community">
+              <CountUp end={count2} duration={6} /><br></br>
+            </span>
+            {' courses'}
+          </h2>
+        </div>
+        <img className="divider" src="../../assets/divider.svg"></img>
       </div>
     </section>
   );
