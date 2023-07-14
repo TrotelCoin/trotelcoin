@@ -11,16 +11,25 @@ const Hero = () => {
             <ReactTyped
               strings={[
                 "Bitcoin",
-                "Crypto",
-                "Decentralization",
                 "Blockchain",
-                "Web3",
+                "Wallet",
+                "Ethereum",
+                "Crypto",
+                "dApps",
+                "Decentralization",
+                "DeFi",
+                "Altcoins",
+                "IPFS",
+                "Stablecoins",
+                "Smart Contract",
+                "Airdrop",
                 "NFTs",
-                "Airdrops",
+                "Web3",
+                "EVM",
               ]}
               typeSpeed={100}
               loop
-              backSpeed={60}
+              backSpeed={20}
               cursorChar=""
               showCursor={false}
             />
@@ -36,12 +45,12 @@ const Hero = () => {
       <div className="earn">
         <h2 className="hero-title">
           <span className="yellow">Earn</span>{" "}
-          <span className="text-hover-yellow">$TROTEL.</span>
+          <span className="text-hover-yellow">Crypto.</span>
         </h2>
         <p>
-          Unleash the power of earning cryptocurrencies with{" "}
-          <span className="yellow">TrotelCoin</span> in actively learning about
-          crypto and blockchain.
+          Unleash the power of earning crypto rewards with{" "}
+          <span className="yellow">TrotelCoin</span> in actively learning and interacting about the
+          world of crypto and blockchain.
         </p>
       </div>
     </section>

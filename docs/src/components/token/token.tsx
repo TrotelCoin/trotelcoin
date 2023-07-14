@@ -13,8 +13,8 @@ const Token = () => {
 
   useEffect(() => {
     if (inView) {
-      setCount1(100); // total supply
-      setCount2(49); // in circulation
+      setCount1(100000); // total supply
+      setCount2(1000); // market cap
     }
   }, [inView]);
 
@@ -28,17 +28,17 @@ const Token = () => {
         <div className="token-stats-flex">
           <h2 className="token-text-supply">
             <span className="statistic-token">
-              <CountUp end={count1} duration={6} suffix="k" />
+              <CountUp end={count1} duration={6} suffix="" />
               <br></br>
             </span>
-            {" total supply"}
+            {" is the total supply"}
           </h2>
           <h2 className="token-text-circulation">
             <span className="statistic-token">
-              <CountUp end={count2} duration={6} suffix="k" />
+              <CountUp end={count2} duration={6} suffix="$ +" />
               <br></br>
             </span>
-            {" in circulation"}
+            {" of market cap"}
           </h2>
         </div>
         <img className="divider" src="./assets/divider.svg"></img>
@@ -48,7 +48,6 @@ const Token = () => {
           className="flooz"
           width="400"
           height="720"
-          frameBorder="0"
           allow="clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *"
           src="https://flooz.xyz/embed/trade?swapDisabled=false&swapToTokenAddress=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5&swapLockToToken=true&onRampDisabled=false&onRampAsDefault=true&onRampDefaultAmount=50&onRampTokenAddress=0xf04ab1a43cBA1474160B7B8409387853D7Be02d5&onRampLockToken=true&stakeDisabled=true&network=bsc&lightMode=true&primaryColor=%23eecc00&backgroundColor=transparent&roundedCorners=10&padding=20&refId=WfjJqs"
         ></iframe>
