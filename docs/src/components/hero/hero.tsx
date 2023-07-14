@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero">
       <div className="learn">
         <h2 className="hero-title">
-          <span className="blue">Learn About</span>{" "}
+          <span className="blue">Learn </span>{" "}
           <span className="text-hover-blue">
             <ReactTyped
               strings={[
