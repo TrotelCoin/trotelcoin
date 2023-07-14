@@ -4,14 +4,14 @@ const Header = () => {
   return (
     <header>
       <nav>
-          <img className='trotelcoin-logo' src="../../../public/assets/trotelcoin-minimalist.jpg" alt="TrotelCoin logo"></img>
-          <img src="../../../public/assets/line-navbar.svg" alt="just a line"></img>
+          <img className='trotelcoin-logo' src="./assets/trotelcoin-minimalist.jpg" alt="TrotelCoin logo"></img>
+          <img src="./assets/line-navbar.svg" alt="just a line"></img>
           <ul className="pages">
             <li>
               <a href="#">Home</a>
             </li>
             <li>
-              <a target="_blank" href="../../../public/whitepaper.pdf">Whitepaper</a>
+              <a target="_blank" href="./whitepaper.pdf">Whitepaper</a>
             </li>
             <li>
               <a href="../../staking">Soon...</a>

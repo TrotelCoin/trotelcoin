@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <img className="trotelcoin-logo" src="../../../public/assets/trotelcoin-minimalist.jpg" alt="TrotelCoin logo"></img>
+      <img className="trotelcoin-logo" src="./trotelcoin-minimalist.jpg" alt="TrotelCoin logo"></img>
       <div className="footer-all-sections">
         <div className="footer-section">
           <h3 className="footer-title">TrotelCoin</h3>
