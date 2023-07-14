@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="learn">
         <h2 className="hero-title"><span className="blue">Learn About</span> <span className="text-hover-blue">
           <ReactTyped
-          strings={["Crypto", "Blockchain", "Web3", "NFTs"]}
+          strings={["Bitcoin", "Crypto", "Decentralization", "Blockchain", "Web3", "NFTs", "Airdrops"]}
           typeSpeed={100}
           loop
           backSpeed={60}
