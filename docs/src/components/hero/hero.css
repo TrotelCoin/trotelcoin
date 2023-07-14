@@ -10,10 +10,6 @@
     gap: 26px;
 }
 
-.learn {
-
-}
-
 h2 {
     margin: 0;
 }
@@ -40,12 +36,6 @@ span {
 .yellow {
     color: var(--yellow-color);
     font-weight: 700;
-}
-
-.text-hover-blue:hover {
-    color: var(--blue-color);
-    text-decoration-line: underline;
-    transition-duration: 0.3s;
 }
 
 .text-hover-yellow:hover {

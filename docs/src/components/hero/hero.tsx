@@ -1,29 +1,19 @@
-import { TypeAnimation } from 'react-type-animation';
+import ReactTyped from 'react-typed';
 import "./Hero.css";
 
 const Hero = () => {
-  const learningText = () => {
-    return (
-      <TypeAnimation
-        sequence={[
-          'Crypto',
-          1000,
-          'Blockchain',
-          1000,
-          'Web3',
-          1000,
-          'NFTs',
-          1000
-        ]}
-        repeat={Infinity}
-      />
-    );
-  };
-
   return (
     <section className="hero">
       <div className="learn">
-        <h2 className="hero-title"><span className="blue">Learn</span> <span className="text-hover-blue">{learningText}.</span></h2>
+        <h2 className="hero-title"><span className="blue">Learn About</span> <span className="text-hover-blue">
+          <ReactTyped
+          strings={["Crypto", "Blockchain", "Web3", "NFTs"]}
+          typeSpeed={100}
+          loop
+          backSpeed={60}
+          cursorChar=""
+          showCursor={false}
+        />.</span></h2>
         <p><span className="blue">TrotelCoin</span> thinks learning about crypto and blockchain unlocks the potential for revolutionary advancements in finance and technology.</p>
       </div>
       <div className="earn">
