@@ -90,6 +90,12 @@
 .flooz {
     border: 3px solid #000;
     border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.flooz:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
 }
 
 .partners {
