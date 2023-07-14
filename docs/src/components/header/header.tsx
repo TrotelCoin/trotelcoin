@@ -14,7 +14,7 @@ const Header = () => {
               <a target="_blank" href="./whitepaper.pdf">Whitepaper</a>
             </li>
             <li>
-              <a href="../../staking">Soon...</a>
+              <a href="https://staking.trotelcoin.com">Soon...</a>
             </li>
             <li>
               <a href="../../about">About</a>
