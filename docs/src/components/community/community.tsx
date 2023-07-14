@@ -22,7 +22,7 @@ const Community = () => {
     <section className="community" ref={ref}>
       <h1 className="community-title">Community.</h1>
       <div className="community-statistics">
-        <img className="divider" src="../../assets/divider.svg"></img>
+        <img className="divider" src="../../../public/assets/divider.svg"></img>
         <div className='community-stats-flex'>
           <h2 className="statistics-text-learners">
             <span className="statistic-community">
@@ -37,7 +37,7 @@ const Community = () => {
             {' courses'}
           </h2>
         </div>
-        <img className="divider" src="../../assets/divider.svg"></img>
+        <img className="divider" src="../../../public/assets/divider.svg"></img>
       </div>
     </section>
   );
