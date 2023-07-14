@@ -1,49 +1,49 @@
 footer {
-    position: relative;
-    width: 1080px;
-    top: 1100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 300px;
+  position: relative;
+  width: 1080px;
+  top: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
 }
 
 h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .footer-label:hover {
-    color: var(--blue-color);
-    transition-duration: 0.3s;
+  color: var(--blue-color);
+  transition-duration: 0.3s;
 }
 
 .footer-title {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .footer-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 19px;
-    flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  flex-shrink: 0;
 }
 
 .socials {
-    display: flex;
-    width: 89px;
-    height: 208px;
-    flex-direction: column;
-    align-items: center;
-    gap: 19px;
-    flex-shrink: 0;
+  display: flex;
+  width: 89px;
+  height: 208px;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  flex-shrink: 0;
 }
 
 .footer-all-sections {
-    display: flex;
-    gap: 90px;
+  display: flex;
+  gap: 90px;
 }
 
 #divider-footer {
-    width: 200px;
+  width: 200px;
 }

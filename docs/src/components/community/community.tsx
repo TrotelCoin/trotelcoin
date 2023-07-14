@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import CountUp from 'react-countup';
-import { useInView } from 'react-intersection-observer';
-import './Community.css';
+import { useState, useEffect } from "react";
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
+import "./Community.css";
 
 const Community = () => {
   const [count1, setCount1] = useState(0);
@@ -23,18 +23,20 @@ const Community = () => {
       <h1 className="community-title">Community.</h1>
       <div className="community-statistics">
         <img className="divider" src="./assets/divider.svg"></img>
-        <div className='community-stats-flex'>
+        <div className="community-stats-flex">
           <h2 className="statistics-text-learners">
             <span className="statistic-community">
-              <CountUp end={count1} duration={6} suffix="+" /><br></br>
+              <CountUp end={count1} duration={6} suffix="+" />
+              <br></br>
             </span>
-            {' learners'}
+            {" learners"}
           </h2>
           <h2 className="statistics-text-courses">
             <span className="statistic-community">
-              <CountUp end={count2} duration={6} /><br></br>
+              <CountUp end={count2} duration={6} />
+              <br></br>
             </span>
-            {' courses'}
+            {" courses"}
           </h2>
         </div>
         <img className="divider" src="./assets/divider.svg"></img>

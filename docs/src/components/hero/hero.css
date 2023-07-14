@@ -1,57 +1,57 @@
 .hero {
-    position: relative;
-    top: 175px;
-    width: 1000px;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 26px;
+  position: relative;
+  top: 175px;
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 26px;
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .hero-title {
-    color: var(--black-color);
-    font-family: "Poppins", sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    -webkit-text-stroke: 1px #000;
+  color: var(--black-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  -webkit-text-stroke: 1px #000;
 }
 
 span {
-    transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .blue {
-    color: var(--blue-color);
-    font-weight: 700;
+  color: var(--blue-color);
+  font-weight: 700;
 }
 
 .yellow {
-    color: var(--yellow-color);
-    font-weight: 700;
+  color: var(--yellow-color);
+  font-weight: 700;
 }
 
 .text-hover-yellow:hover {
-    color: var(--yellow-color);
-    text-decoration-line: underline;
-    transition-duration: 0.3s;
+  color: var(--yellow-color);
+  text-decoration-line: underline;
+  transition-duration: 0.3s;
 }
 
 p {
-    flex-direction: column;
-    justify-content: center;
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
 }
