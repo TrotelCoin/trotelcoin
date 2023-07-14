@@ -1,39 +1,18 @@
 footer {
-    position: absolute;
-    top: 3529px;
-    bottom: -567px;
-    width: 1440px;
-    height: 918px;
-    flex-shrink: 0;
-}
-
-.trotelcoin-minimalist-footer {
-    position:absolute;
-    left: 188px;
-    right: 1177px;
-    bottom: 843px;
-    width: 75px;
-    height: 75px;
-    flex-shrink: 0;
-    background: url(../../assets/trotelcoin-minimalist.jpg), white 100% / cover no-repeat;
-    background-size: 75px;
-}
-
-.line-footer {
-    position: absolute;
-    top: 38px;
-    left: 297px;
-    right: 745px;
-    bottom: 880px;
-    width: 398.005px;
-    height: 3px;
+    position: relative;
+    width: 1080px;
+    top: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
 }
 
 h3 {
     margin: 0;
 }
 
-a:hover {
+.footer-label:hover {
     color: var(--blue-color);
     transition-duration: 0.3s;
 }
@@ -42,15 +21,8 @@ a:hover {
     font-size: 24px;
 }
 
-.trotelcoin {
-    position: absolute;
-    top: 20px;
-    left: 729px;
-    right: 582px;
-    bottom: 733px;
+.footer-section {
     display: flex;
-    width: 129px;
-    height: 165px;
     flex-direction: column;
     align-items: center;
     gap: 19px;
@@ -58,11 +30,6 @@ a:hover {
 }
 
 .socials {
-    position: absolute;
-    top: 20px;
-    left: 1164px;
-    right: 187px;
-    bottom: 690px;
     display: flex;
     width: 89px;
     height: 208px;
@@ -70,4 +37,13 @@ a:hover {
     align-items: center;
     gap: 19px;
     flex-shrink: 0;
+}
+
+.footer-all-sections {
+    display: flex;
+    gap: 90px;
+}
+
+#divider-footer {
+    width: 200px;
 }
