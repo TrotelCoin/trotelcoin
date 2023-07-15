@@ -1,21 +1,14 @@
-import {
-  Community,
-  Footer,
-  Header,
-  Hero,
-  Learncard,
-  Token,
-} from "./components";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
 
 const TrotelCoin = () => {
   return (
     <div>
-      <Header></Header>
-      <Hero></Hero>
-      <Community></Community>
-      <Token></Token>
-      <Learncard></Learncard>
-      <Footer></Footer>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+      </Switch>
     </div>
   );
 };
