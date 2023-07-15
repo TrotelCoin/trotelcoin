@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-section">
-          <h3 className="footer-title">Token</h3>
+          <h3 className="footer-title">Ecosystem</h3>
           <a
             target="_blank"
             href="https://flooz.xyz/trade/how-to-buy/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5?network=bsc"
@@ -46,7 +46,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-section">
-          <h3 className="footer-title">Socials</h3>
+          <h3 className="footer-title">Community</h3>
           <a target="_blank" href="https://twitter.com/trotelcoin">
             <p className="footer-label">Twitter</p>
           </a>
