@@ -14,11 +14,11 @@ const Footer = () => {
           <a href="#">
             <p className="footer-label">Home</p>
           </a>
-          <a href="../../about">
-            <p className="footer-label">About</p>
-          </a>
           <a href="https://app.trotelcoin.com">
             <p className="footer-label">The App</p>
+          </a>
+          <a href="../../about">
+            <p className="footer-label">About</p>
           </a>
         </div>
         <div className="footer-section">
@@ -36,7 +36,7 @@ const Footer = () => {
             target="_blank"
             href="https://bscscan.com/token/0xf04ab1a43cBA1474160B7B8409387853D7Be02d5"
           >
-            <p className="footer-label">BNB Chain Explorer</p>
+            <p className="footer-label">BSC Explorer</p>
           </a>
           <a
             target="_blank"
